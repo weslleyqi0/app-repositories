@@ -1,8 +1,9 @@
 package com.weslleyqi0.apprepositories.data.repositories
 
-import android.os.RemoteException
+
 import com.weslleyqi0.apprepositories.data.services.GitHubService
 import kotlinx.coroutines.flow.flow
+import com.weslleyqi0.apprepositories.core.RemoteException
 import retrofit2.HttpException
 
 class RepoRepositoryImpl(private val service: GitHubService) : RepoRepository {
