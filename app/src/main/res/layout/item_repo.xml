@@ -16,6 +16,7 @@
             android:id="@+id/iv_owner"
             android:layout_width="90dp"
             android:layout_height="90dp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:srcCompat="@tools:sample/avatars" />
@@ -48,8 +49,7 @@
         <com.google.android.material.chip.Chip
             android:id="@+id/chip_star"
             android:layout_width="wrap_content"
-            android:layout_height="30dp"
-            app:chipBackgroundColor="@color/white"
+            android:layout_height="40dp"
             app:chipIcon="@drawable/ic_stars"
             app:chipIconTint="#FAFA02"
             app:layout_constraintStart_toStartOf="@id/tv_repo_name"
